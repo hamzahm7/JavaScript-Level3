@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+    margin: auto;
+    padding-top: 125px;
+}
+
+.screen{
+    display: flex;
+}
+
+.button, #computer{
+    margin: 6px;
+    height: 210px;
+    display: flex;
+    flex-basis: 54%;
+    background-color:aquamarine;
+    align-items:left;
+
+}
+button{
+    font-size: 23px;
+    padding:14px;
+    background-color: aqua;
+    display:flex;
+}
+button:focus {
+    font-weight:bold;
+}
+.user{
+    float:left;
+}
+.computer{
+    float: right;
+}
